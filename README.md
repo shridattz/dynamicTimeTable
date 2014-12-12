@@ -7,8 +7,10 @@ Instructions to use this project :
 
 This project is configured in eclipse and is a simple implementation, I had done a webUI for this but somehow i have lost it
 
-1) Clone this repository.
-2) Import the project in Eclipse ( you can even copy the package into a new project if you use a different IDE / If import of Eclipse project doesnt work well with that IDE )
+1) Clone this repository.	
+	
+2) Import the project in Eclipse ( you can even copy the package into a new project if you use a different IDE / If import of Eclipse project doesnt work well with that IDE )	
+	
 3) Run the 'TimeTableMain.java' file and you will see a 'timetable.csv' file created in the Project Directory
 
 Cheers !
