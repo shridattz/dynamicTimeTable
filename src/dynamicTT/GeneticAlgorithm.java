@@ -35,7 +35,8 @@ public class GeneticAlgorithm {
 		String[] weekDaysName=new DateFormatSymbols().getWeekdays();
 		for (int i = 1; i < weekDaysName.length; i++) {
 	        System.out.println("weekday = " + weekDaysName[i]);
-	    	if(!(weekDaysName[i].equalsIgnoreCase("Sunday"))){
+	    	//if(!(weekDaysName[i].equalsIgnoreCase("Sunday"))){
+	    	if (!(i == Calendar.SUNDAY))
 	    	weekDayNames.add(weekDaysName[i]);
 	    		}
 	    	}
