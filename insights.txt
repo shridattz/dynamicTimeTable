@@ -1,0 +1,20 @@
+Professor: name, subjects he teaches
+Course : subjects, professors(optional), classroom ids or no of roomsfor that course
+Subject : name, no of lectures per week
+Timeslot (Class) : one element in timeslot contaning teacher and subject
+Day : contains 6 timeslots (6 lectures per day)
+Week : contains 6 day objects
+Room : room no, one week object contains weekly timtable for that room
+Timetable : is one timetable object contaning multiple room objects
+
+
+Basic Constraints:
+	number of subjects-6
+	number of lecture per day-6
+	one teacher teaches one subject
+
+fitness function finds number of lectures clashing between rooms.
+the timetable with less fitness score is the best.
+
+The crossover does nothing but shuffles the 'TimeSlots' for the 'Day'. The 'Day' is picked from a random 5 days of the week. 
+These timeslots are maintained in a list and shuffling the timeslots of days in all the classroom produces a new child Time table
